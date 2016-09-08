@@ -56,8 +56,8 @@ textarea {
    ========================================================================== */
 .moon {
 
-    width: 960px;
-    background-image: url("img/moon.jpg");
+    height: 500px;
+    background-image: url("../img/moon.jpg");
     background-color: #cccccc;
 }
  
