@@ -56,19 +56,24 @@ textarea {
    ========================================================================== */
 .moon {
 
-    height: 500px;
+    height: 1279px;
+    width: 1080px;
     background-image: url("../img/moon.jpg");
-    background-color: #cccccc;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
 }
  
-.box {
+.last {
 
-    border: 2px solid #000;
+  color: white;
+  font-family: impact;
     margin: 100px auto;
-    padding: 50px 25px;
-    background: #ccc;
-    color: #333;
-    width: 100px;
+   padding-top: 100px;
+   padding-right: 240px;
+   font-size: 40px;
+
+   
     text-align: center;
     transition: 1s ease-in-out;
 }
@@ -76,6 +81,43 @@ textarea {
 #scale:hover {
     transform: scale(2);
 }
+
+
+.light{
+
+
+    color: white;
+    font-family: impact;
+    height: 300px;
+    width: 1000px;
+    font-size: 50px;
+    padding-top: 80px;
+    padding-left: 50px;
+    transition: 1s ease-in-out;
+     transform-origin: top left;
+
+
+
+
+}
+
+
+
+.bottle{
+
+color: white;
+font-family: impact;
+height: 150px;
+width: 1000px;
+padding-left: 280px;
+padding-top: 50px;
+font-size: 55px;
+    transition: 1s ease-in-out;
+
+
+}
+
+
 
 
 
