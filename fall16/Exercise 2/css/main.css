@@ -68,7 +68,8 @@ textarea {
 #leftToRight {
     animation-name: leftToRight;
     animation-duration: 4s;
-    animation-iteration-count: 5;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
    
 }
 
@@ -102,7 +103,9 @@ textarea {
 #rightToLeft{
     animation-name: rightToLeft;
     animation-duration: 4s;
-    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
     }
 
     @keyframes rightToLeft{
@@ -127,7 +130,8 @@ textarea {
 #LtoR {
     animation-name: leftToRight;
     animation-duration: 4s;
-    animation-iteration-count: 5;
+    animation-iteration-count: infinite;
+     animation-direction: alternate;
    }
 
 
@@ -145,7 +149,8 @@ textarea {
 #RtoL {
     animation-name: rightToLeft;
     animation-duration: 4s;
-    animation-iteration-count: 5;
+    animation-iteration-count: infinite;
+     animation-direction: alternate;
    }
 
 
@@ -168,6 +173,7 @@ textarea {
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-top: 100px solid red;
+     
 }
 
 
