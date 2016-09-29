@@ -39,82 +39,163 @@
             }
 
 
-            .colorbox{
+            .colorbox {
                 height: 250px;
                 width: 300px;
                 animation-name: color;
-                animation-duration: 5s, 1s;
-                animation-iteration-count:infinite;
-                }
+                animation-duration: 10s;
+                animation-iteration-count: 1;
+                animation-fill-mode: both;
+            }
 
-                .num5{
-                   position: absolute;
-                   top:0;
-                   left:0;
-                   transform: scale(.7);
-                }
+            .numbers {
+               position: absolute;
+               top:75px;
+               left:0;
+               text-align: center;
+               width: 100%;
+               animation-name: numberCount;
+               animation-duration: 2.5s;
+               animation-iteration-count: 1;
+               animation-fill-mode: both;
+            }
+
+            #num5 {
+               animation-delay: 0s;
+            }
+            #num4 {
+               animation-delay: 2s;
+            }
+
+
+            #num3 {
+               animation-delay: 4s;
+            }
+            #num2 {
+               animation-delay: 6s;
+            }
+
+            #num1 {
+               animation-delay: 8s;
+            }
+
+              #giftcard {
+               animation-delay: 10s;
+               animation-name: giftcard;
+
+            }
+
+            .stars{
+                position: absolute;
+               top: 0;
+               left:0;
+
+
+            }
 
              
 
-               @keyframes color {
-                20% {
+           @keyframes color {
+                0% {
                     background: #FF0000;
                 }
-                40% {
+                15% {
+                    background: #FF0000;
+                }
+                20% {
                     background:#FF6600;
                 }
-
-
-                 60% {
-                    background:#FFFF00;
-                }
-
-
-                  80% {
-                    background:#0000FF;
-                }
-
-                  100% {
-                    background:#00CC00;
-                } 
-
-
-            @keyframes move {
-                0% {
-                    top: calc(0% - 25px);
-                    left: calc(0% - 25px);
+                35% {
+                    background:#FF6600;
                 }
                 40% {
-                    top: calc(100% - 25px);
-                    left: calc(100% - 25px);
+                    background:#FFFF00;
                 }
-                50% {
-                    top: calc(0% - 25px);
-                    left: calc(100% - 25px);
+                55% {
+                    background:#FFFF00;
                 }
-                90% {
-                    top: calc(100% - 25px);
-                    left: calc(0% - 25px);
+                60% {
+                    background:#0000FF;
+                }
+                75% {
+                    background:#0000FF;
+                }
+                80% {
+                    background:#00CC00;
+                }
+
+                95% {
+                    background:#00CC00;
+                }
+                
+                100% {background: #FFFFFF;
+
+                }
+            } 
+
+
+            @keyframes numberCount {
+
+                0% { 
+                    opacity: 0;
+                }
+                30% {
+                    opacity: 1;
                 }
                 100% {
-                    top: calc(0% - 25px);
-                    left: calc(0% - 25px);
+                    opacity: 0;
                 }
-            
+            }
          
+
+            @keyframes giftcard {
+
+                0% { 
+                    opacity: 0;
+                }
+                30% {
+                    opacity: 1;
+                }
+                100% {
+                    opacity: 1;
+                }
+
+
         </style>
     </head>
     <body>
         <a href="#" id="medium-rectangle">
             <!--markup for banner goes below-->
 
-
-
             <div class="colorbox"></div>
                
-                <div class="num5">
-                 <img src="img/5.png"> 
-                 </div>
+                <div class="numbers" id="num5">
+                    <img src="img/5.png"> 
+                </div>
+
+                <div class="numbers" id="num4">
+                    <img src="img/4.png"> 
+                </div>
+
+                <div class="numbers" id="num3">
+                    <img src="img/3.png"> 
+                </div>
+
+                <div class="numbers" id="num2">
+                    <img src="img/2.png"> 
+                </div>
+                
+                <div class="numbers" id="num1">
+                    <img src="img/1.png"> 
+                </div>
+
+                <div class="numbers" id="giftcard">
+                    <img src="img/giftcard.png"> 
+                </div>
+
+                <div class="stars">
+                    <img src="img/stars.png> 
+                </div>
 
              </div>
 
