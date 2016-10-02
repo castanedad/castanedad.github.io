@@ -79,16 +79,35 @@
                animation-delay: 8s;
             }
 
-              #giftcard {
+            #giftcard {
                animation-delay: 10s;
                animation-name: giftcard;
 
             }
 
+         
+
             .stars{
                 position: absolute;
                top: 0;
-               left:0;
+               left: 20px;
+                animation-name: numberCount;
+               animation-duration: 2s;
+               animation-iteration-count: 5;
+               animation-fill-mode: both;
+
+
+            }
+
+            .last{
+                position: absolute;
+               top: 0;
+               left: 0;
+                animation-delay: 10s;
+               animation-name: giftcard;
+               animation-duration: 2s;
+              animation-fill-mode: both;
+
 
 
             }
@@ -97,35 +116,35 @@
 
            @keyframes color {
                 0% {
-                    background: #FF0000;
+                    background: #CC0000;
                 }
-                15% {
-                    background: #FF0000;
+                11% {
+                    background: #CC0000;
                 }
-                20% {
+                22% {
                     background:#FF6600;
                 }
-                35% {
+                33% {
                     background:#FF6600;
                 }
-                40% {
-                    background:#FFFF00;
+                44% {
+                    background:#CCCC00;
                 }
                 55% {
-                    background:#FFFF00;
+                    background:#CCCC00;
                 }
-                60% {
-                    background:#0000FF;
+                66% {
+                    background:#0066CC;
                 }
-                75% {
-                    background:#0000FF;
+                77% {
+                    background:#0066CC;
                 }
-                80% {
-                    background:#00CC00;
+                88% {
+                    background:#009933;
                 }
 
-                95% {
-                    background:#00CC00;
+                99% {
+                    background:#009933;
                 }
                 
                 100% {background: #FFFFFF;
@@ -160,6 +179,8 @@
                     opacity: 1;
                 }
 
+             
+
 
         </style>
     </head>
@@ -189,14 +210,18 @@
                     <img src="img/1.png"> 
                 </div>
 
+                <div class="stars">
+                    <img src="img/stars1.png"> 
+                </div>
+
+                <div class="last"> 
+                    <img src="img/laststar.png"> 
+                </div>
+
                 <div class="numbers" id="giftcard">
                     <img src="img/giftcard.png"> 
                 </div>
-
-                <div class="stars">
-                    <img src="img/stars.png> 
-                </div>
-
+             
              </div>
 
  
