@@ -949,11 +949,11 @@ textarea {
    ========================================================================== */
 
 h1{
-color: #097243;
+  color: #097243;
 
 }
 
-ul {
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -961,12 +961,11 @@ ul {
    
 }
 
-li {
+.nav li {
     float: right;
-    
 }
 
-li a {
+.nav li a {
     
     color: black;
     text-align: center;
