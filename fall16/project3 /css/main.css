@@ -948,14 +948,43 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+h1{
+color: #097243;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+
+li {
+    float: right;
+    
+}
+
+li a {
+    
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
 
 .row1 {
 	margin:0 auto;
-	height:3.5em;
+	height: 3.5em;
   
 }
 
 .row2{
+
+
 
 
 
@@ -968,7 +997,40 @@ padding-left: 5em;
 
 }
 
+.row4{
 
+}
+
+.row5{
+  text-align: center;
+
+  
+}
+
+
+.row6{
+
+
+ 
+}
+
+.giftcard{
+
+}
+
+.getstarted{
+ padding-left: 300px;
+}
+
+.footer{
+
+width: 990px;
+
+}
+
+h6{
+  text-align: center;
+}
 
 
 
