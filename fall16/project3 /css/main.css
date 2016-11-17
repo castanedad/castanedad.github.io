@@ -1059,15 +1059,47 @@ form{
 
 }
 
-.get1{
+.button{
+  display: inline-block;
 padding-top: 20px;
 
+padding: 15px; 
+font-weight: bold; 
+background: #097243; 
+color: white; 
+border-radius: 10px; 
+border: 1px 
+solid #999; 
+font-size: 100%;
+
 }
+.button:hover {
+  background: red; 
+}
+
+
+
+
+
+
+
 
 .footer img{
   padding-top: 20px;
   width: 30px;
 }
+
+
+
+
+.price{
+
+  text-align: center;
+
+}
+
+
+
 
 h6{
   text-align: center;
