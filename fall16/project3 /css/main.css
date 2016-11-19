@@ -949,7 +949,7 @@ textarea {
    ========================================================================== */
 
 h1{
-  color: #097243;
+  color: #fff;
 
 }
 
@@ -1001,9 +1001,11 @@ form{
 
 .egifts-overlay {
   background: rgba(93,94,94,1);
+  width: 500px;
   color: #fff;
   padding: 1px 15px;
 }
+
 
 .giftcard-overlay {
   background: rgba(93,94,94,1);
@@ -1074,10 +1076,25 @@ font-size: 100%;
 
 }
 .button:hover {
-  background: red; 
+  background: #0099ff; 
 }
 
+input[type="radio"]{
+  margin: 0 10px 0 10px;
+}
 
+.radio{
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+.price{
+  font-weight: bold;
+  font-size: 30px;
+
+
+}
 
 
 
